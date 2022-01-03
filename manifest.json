@@ -1,7 +1,7 @@
 {
   "name": "snappy-commerce",
   "vendor": "snappybotsar",
-  "version": "0.1.0",
+  "version": "0.1.1-beta.0",
   "title": "Snappy bot installer",
   "description": "This app let's you inject the snappy bot on your vtex page",
   "billingOptions": {
