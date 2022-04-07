@@ -2,8 +2,8 @@
   "name": "snappy-commerce",
   "vendor": "snappybotsar",
   "version": "0.1.2",
-  "title": "Snappy bot installer",
-  "description": "This app let's you inject the snappy bot on your vtex page",
+  "title": "Snappy Commerce",
+  "description": "Increase your sales and provide constant attention with an AI Chatbot.",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -28,7 +28,6 @@
     "properties": {
       "botUuid": {
         "title": "Bot UUID",
-        "description": "Enter your Bot UUID",
         "type": "string"
       }
     }
