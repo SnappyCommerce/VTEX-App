@@ -1,1 +1,24 @@
-<script src="https://api.snappylabs.io/dist/{{settings.botUuid}}"></script>
+<script>
+	(function() {
+		var botUuid = "{{settings.botUuid}}";
+		if (!botUuid) {
+			console.error('Warning: No APP Bot UUID is defined. Please configure it in the apps admin.');
+			return
+		}
+
+		// Create Snappy script
+		var snappyScript = document.createElement("script");
+
+		// Get the last script of the body
+		var lastScript = document.getElementsByTagName("script")[document.getElementsByTagName("script").length-1];
+
+		// Set Snappy script config
+		snappyScript.async=true;
+		snappyScript.src='https://api.snappylabs.io/dist/'+botUuid;
+		snappyScript.charset='UTF-8';
+		snappyScript.setAttribute('crossorigin','*');
+
+		// Insert Snappy script before the last script
+		lastScript.parentNode.insertBefore(snappyScript, lastScript);
+	})()
+</script>
