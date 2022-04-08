@@ -2,7 +2,13 @@
   "name": "Snappy Commerce",
   "headline": "Aumenta tus ventas y brinda atención constante con un Chatbot IA.",
   "overview": "Snappy Commerce es una plataforma de chat-commerce que le permite a las marcas tener conversaciones personales y escalar a través de aplicaciones de mensajería como WhatsApp, Instagram y Messenger, gracias a un poderoso asistente de PLN.",
-  "features": [],
+  "features": [
+    "Chatbot IA",
+    "Atención constante e instantánea",
+    "Sistema Multiagente",
+    "CRM Integrado",
+    "Asistente de compras"
+  ],
   "additionalInformation": "",
   "websiteURL": "https://snappycommerce.io/",
   "support": {
